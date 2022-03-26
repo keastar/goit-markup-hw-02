@@ -136,68 +136,70 @@ a.top-logo > span {
     text-decoration: none;
     }
     
-    a.bott-logo > span {
-        color: var(--third-text-color);
-    }
+a.bott-logo > span {
+    color: var(--third-text-color);
+}
     
-    .bott-adr-info {
-        font-style: normal;
-        text-decoration: none;
-        color: var(--third-text-color);
-    }
+.bott-adr-info {
+    font-style: normal;
+    text-decoration: none;
+    color: var(--third-text-color);
+}
     
-    .bott-adr-info:hover {
-        color: var(--second-text-color);
-    }
+.bott-adr-info:hover {
+    color: var(--second-text-color);
+}
     
-    .bott-adr-info:focus {
-        color: var(--second-text-color);
-    }
+.bott-adr-info:focus {
+    color: var(--second-text-color);
+}
 
-    .bott-adr-c {
-        font-style: normal;
-        text-decoration: none;
-        color: rgba(255, 255, 255, 0.6);
-    }
+.bott-adr-c {
+    font-style: normal;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
     
-    .bott-adr-c:hover {
-        color: var(--second-text-color);
-    }
+.bott-adr-c:hover {
+    color: var(--second-text-color);
+}
     
-    .bott-adr-c:focus {
-        color: var(--second-text-color);
-    }
+.bott-adr-c:focus {
+    color: var(--second-text-color);
+}
 
-    <!--для portfolio далее--> 
+<!--для portfolio далее--> 
 
-    main {
-        background-color: #e5e5e5;
-    }
+#works {
+    background-color: #e5e5e5;
+} 
 
-    .promo-titles {
-        color: var(--main-text-color);
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.63;
-        letter-spacing: 0.03em;    
-    }
+.promo-titles {
+    background-color: var(--bg-colorlight);
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;    
+    cursor: pointer;
+}
 
-    .demo {
-        background-color: var(--bg-colorlight);
-    }
+.promo-titles:hover {
+    background-color: var(--second-text-color);
+}
     
-    .demo-titles {
-        color: var(--main-text-color);
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 0.06em;
-    }
+.demo-titles {
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
     
-    .demo-position {
-        color: var(--main-text-colorlight);
-        font-size: 16px;
-        line-height: 1.88;
-        letter-spacing: 0.03em;
-    }
+.demo-position {
+    color: var(--main-text-colorlight);
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
     
