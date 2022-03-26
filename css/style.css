@@ -1,4 +1,4 @@
-body {
+ body {
     --main-text-color: #212121;
     --main-text-colorlight: #757575;
     --second-text-color: #2196F3;
@@ -167,3 +167,37 @@ a.top-logo > span {
     .bott-adr-c:focus {
         color: var(--second-text-color);
     }
+
+    <!--для portfolio далее--> 
+
+    main {
+        background-color: #e5e5e5;
+    }
+
+    .promo-titles {
+        color: var(--main-text-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.63;
+        letter-spacing: 0.03em;    
+    }
+
+    .demo {
+        background-color: var(--bg-colorlight);
+    }
+    
+    .demo-titles {
+        color: var(--main-text-color);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+    }
+    
+    .demo-position {
+        color: var(--main-text-colorlight);
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+    }
+    
