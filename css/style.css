@@ -1,3 +1,7 @@
+ * {
+    list-style: none;
+ }
+ 
  body {
     --main-text-color: #212121;
     --main-text-colorlight: #757575;
@@ -175,6 +179,7 @@ a.bott-logo > span {
 } 
 
 .promo-titles {
+    font-family: var(--main-font);
     background-color: var(--bg-colorlight);
     color: var(--main-text-color);
     font-weight: 500;
@@ -186,6 +191,7 @@ a.bott-logo > span {
 
 .promo-titles:hover {
     background-color: var(--second-text-color);
+    color: var(--third-text-color);
 }
     
 .demo-titles {
