@@ -99,15 +99,15 @@ a.top-logo > span {
     letter-spacing: 0.03em;
 }
 
-.deal-title {
+.team {
+    background-color: var(--bg-colorlight);
+}
+
+.team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-}
-
-.team {
-    background-color: var(--bg-colorlight);
 }
 
 .team-titles {
